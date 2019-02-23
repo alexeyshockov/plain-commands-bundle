@@ -1,6 +1,6 @@
 # PlainCommandsBundle
 
-Integrates alexeyshockov/plain-commands into a Symfony application.
+Integrates [alexeyshockov/plain-commands](https://github.com/alexeyshockov/plain-commands) into a Symfony application.
 
 ## Configuration and usage
 
