@@ -1,0 +1,21 @@
+{
+    "name": "alexeyshockov/plain-commands-bundle",
+    "description": "The bundle provides a way to configure your commands with annotations",
+    "keywords": ["annotations","commands"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Shokov",
+            "email": "alexey@shockov.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "^3.3|^4.0",
+        "sensio/framework-extra-bundle": "^4.0|^5.0",
+        "alexeyshockov/plain-commands": "^0.1"
+    },
+    "autoload": {
+        "psr-4": { "PlainCommands\\Bundle\\": "src/" }
+    }
+}
